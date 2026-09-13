@@ -588,3 +588,24 @@ With the password from the previous level:
 ```text
 pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
 ```
+Got into data.txt
+```bash
+bandit11@bandit:~$ cat data.txt
+Gur cnffjbeq vf TEBbmJCB8DlA0zTewHxVQ0JPLxMvDkeA
+bandit11@bandit:~$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+The password is GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
+bandit11@bandit:~$ 
+```
+
+* `**cat data.txt:` Reads the contents of the file.
+* `| (pipe):` Sends the text output into the next command.
+* `tr:` Translates or replaces specific characters.
+* `'A-Za-z' 'N-ZA-Mn-za-m':` Shifts every uppercase and lowercase letter by 13 positions back to its normal readable form.
+
+Password for the next level is:
+```text
+GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
+```
+
+# LEVEL 12 - 13
+### Level Goals
