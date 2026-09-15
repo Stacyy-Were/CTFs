@@ -109,9 +109,10 @@ For some admin activities, `sudo` isn't in the blocked commands list so we can `
 That means we can use all commands without a password except the listed ones.
 So.....
 ![root](image-5.png)
-THen check the home directory. We got two directories `rick` and `ubuntu` then got into rick with `ls ../../../home/rick` and got: ![alt text](/images/image-7.png)
+Then check the home directory. We got two directories `rick` and `ubuntu` then got into rick with `ls ../../../home/rick` and got: ![alt text](/images/image-7.png)
 Opening the file we get:
 ![alt text](/images/image-8.png)
+Second ingredient!!!
 The second ingredient. Now for the third.
 Looked around and couldn't find anything so we should check the root directory and ofc with `sudo`
 ![alt text](/images/image-11.png)
