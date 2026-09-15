@@ -11,7 +11,7 @@ Use this password to log in to krypton.labs.overthewire.org with username krypto
 
 I created a file `password.txt` and pasted the given encoded string. I then used the command `base64 -d password.txt` to decode the string and got the password:
 ```bash
-# Needs update
+# tr command 
 stacy@stacy:~$ base64 -d flag.txt
 KRYPTONISGREAT
 ```
