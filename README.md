@@ -1,53 +1,23 @@
-# OverTheWire - Wargames
+# Random CTFs
 
-My journey through the **OverTheWire wargames**, documenting the challenges, commands, techniques and lessons I pick up along the way.
+My journey through the **Capture The Flag** clallenges, documenting them, commands, techniques and lessons I pick up along the way.
 
 The goal is to build practical cybersecurity and Linux skills through hands-on problem solving.
 
-## Wargames
+## Wargames/CTFs
 
 | Wargame       | Focus                 | Status         |
 | ------------- | --------------------- | -------------- |
 | **Bandit**    | Linux & Command Line  | 🟡 In Progress |
 | **Natas**     | Web Security          | 🟡 In Progress  |
-| **Leviathan** | Reverse Engineering   | ⚪ Not Started  |
 | **Krypton**   | Cryptography          | 🟡 In Progress  |
-| **Narnia**    | Binary Exploitation   | ⚪ Not Started  |
-| **Behemoth**  | Binary Exploitation   | ⚪ Not Started  |
-| **Utumno**    | Binary Exploitation   | ⚪ Not Started  |
-| **Maze**      | Binary Exploitation   | ⚪ Not Started  |
-| **Vortex**    | Low-Level Programming | ⚪ Not Started  |
-| **Semtex**    | Exploitation          | ⚪ Not Started  |
-| **Manpage**   | Linux / Man Pages     | ⚪ Not Started  |
-| **Drifter**   | Network Security      | ⚪ Not Started  |
-
 > Status will be updated as I progress through each wargame.
 
 ---
 
 # Repository Structure
 
-```text
-OverTheWire/
-│
-├── README.md
-│
-├── Bandit/
-│   ├── INFO.md
-│   └── levels.md
-|
-├── Natas/
-│   ├── INFO.md
-│   └── levels.md
-│
-├── Leviathan/
-│   ├── INFO.md
-│   └── levels.md
-│
-└── ...
-```
-
-Each wargame has its own directory containing its notes and individual challenge writeups.
+Each challenge has its own directory containing its notes and individual challenge writeups.
 
 ---
 
@@ -159,7 +129,7 @@ My general workflow:
 
 # Tools
 
-Some of the tools I expect to use throughout the wargames:
+Some of the tools I expect to use throughout the challenges:
 
 ```text
 Linux
@@ -175,6 +145,8 @@ Wireshark
 Python
 GDB
 Git
+Nikto
+Gobuster
 ```
 
 The toolset will evolve as the challenges become more advanced.
